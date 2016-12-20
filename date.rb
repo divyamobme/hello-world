@@ -1,3 +1,4 @@
 date=Time.new
-date=date.day.to_s+"/"+date.month.to_s+"/"+date.year.to_s
-puts date
+puts "day",date.day, "\n"
+puts "month", date.month,"\n"
+puts "year", date.year,"\n"
