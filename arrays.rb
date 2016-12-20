@@ -11,7 +11,7 @@ for i in 0.. anotherarray.length
 puts  anotherarray[i],"\n"
 end
 somearray.concat(anotherarray)
-puts "mergedarray;"
+puts "mergedarray:"
 for i in 0.. somearray.length
-puts somearray[i],"\n"
+puts somearray[i],"\n "
 end
