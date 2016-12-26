@@ -8,8 +8,8 @@ class Hash
 
 	h = {'apple' => 'green', 'potato' => 'red', 'sun' => 'yellow',
 	     'katydid' => 'green' }
-	     puts "Elements are #{h}"
+	     puts "Elements are \n #{h}"
 
 	h.delete_value('green')
-	  puts"After deleting hash element containing matching value: #{h}"
+	  puts"After deleting hash element containing matching value: \n #{h}"
 
